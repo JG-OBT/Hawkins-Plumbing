@@ -35,10 +35,10 @@ export default function App() {
             Hawkins <span className="text-accent">Heating & Plumbing</span>
           </div>
           <div className="hidden sm:flex items-center gap-3 ml-4 border-l border-white/10 pl-4">
-            <a href="https://facebook.com/hawkinsheating" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-accent transition-colors">
+            <a href="https://www.facebook.com/hawkinsheatingandplumbing/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-accent transition-colors">
               <Facebook size={18} />
             </a>
-            <a href="https://instagram.com/hawkinsheating" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-accent transition-colors">
+            <a href="https://www.instagram.com/hawkinsheatingandplumbingltd/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-accent transition-colors">
               <Instagram size={18} />
             </a>
           </div>
