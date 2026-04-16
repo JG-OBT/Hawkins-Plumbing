@@ -177,7 +177,7 @@ export default function App() {
     <img
       src="/oil-boiler.jpg"
       alt="Oil boiler installation"
-      className="mt-6 h-20 w-full object-cover border border-white/5"
+      className="mt-6 h-48 w-full object-cover border border-white/5"
     />
   </div>
 
@@ -189,7 +189,7 @@ export default function App() {
     <img
       src="/pipework.jpg"
       alt="Pipework detail"
-      className="mt-6 h-20 w-full object-cover border border-white/5"
+      className="mt-6 h-48 w-full object-cover border border-white/5"
     />
   </div>
 
@@ -201,7 +201,7 @@ export default function App() {
     <img
       src="/bathroom.jpg"
       alt="Bathroom installation"
-      className="mt-6 h-20 w-full object-cover border border-white/5"
+      className="mt-6 h-48 w-full object-cover border border-white/5"
     />
   </div>
 
@@ -213,7 +213,7 @@ export default function App() {
     <img
       src="/radiator.jpg"
       alt="Radiator installation"
-      className="mt-6 h-20 w-full object-cover border border-white/5"
+      className="mt-6 h-48 w-full object-cover border border-white/5"
     />
   </div>
 </div>
