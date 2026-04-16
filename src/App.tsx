@@ -20,10 +20,10 @@ export default function App() {
   };
 
   const reviews = [
-    { name: "David Thompson", rating: 5, text: "Excellent service. Hawkins diagnosed a fault with my oil boiler that two other engineers missed. Honest, professional, and very reasonably priced.", date: "2 weeks ago" },
-    { name: "Sarah Jenkins", rating: 5, text: "Had a full bathroom refit done. The attention to detail in the tiling is superb. Highly recommend for any plumbing work.", date: "1 month ago" },
-    { name: "Michael Reed", rating: 5, text: "Fast response when our radiator burst. He was here within the hour and fixed it properly. No guesswork, just quality work.", date: "3 months ago" },
-    { name: "Emma Wilson", rating: 5, text: "Very professional and tidy. Explained everything clearly and showed me the parts that needed replacing. A rare honest tradesman.", date: "5 months ago" }
+    { name: "Heather Griffin", rating: 5, text: "He was honest,  hard working, tidy and extremely professional. His rates were brilliant. I'll definitely be calling on his expertise for any future work." },
+    { name: "Tracy Reade", rating: 5, text: "He is extremely professional and knowledgeable and very  prompt service. Always responds quickly to my requests." },
+    { name: "Suzanne Reeves", rating: 5, text: " had just been let down by two plumbers but as soon as I got in touch with Chris he came out and did an expert job, he was so professional, tidy in his work and a really nice guy who knows what he's doing." },
+    { name: "Glenis D", rating: 5, text: "It was very refreshing to see someone take so much pride and care in their work, which showed in the end result" }
   ];
 
   return (
@@ -164,7 +164,7 @@ export default function App() {
             <Star size={14} fill="currentColor" />
             <Star size={14} fill="currentColor" />
           </div>
-          <p>"He saved us a lot of money... explained everything clearly and showed us the issue. Highly recommend."</p>
+          <p>"I can't recommend Hawkins Heating and Plumbing enough."</p>
         </div>
 
        {/* Services Grid */}
@@ -232,8 +232,8 @@ export default function App() {
                     <Star size={20} fill="currentColor" />
                     <Star size={20} fill="currentColor" />
                   </div>
-                  <span className="text-xl font-bold">5.0</span>
-                  <span className="text-text-muted">Based on 48 Google reviews</span>
+                  <span className="text-xl font-bold">4.7</span>
+                  <span className="text-text-muted">Based on 12 Google reviews</span>
                 </div>
               </div>
               <a 
