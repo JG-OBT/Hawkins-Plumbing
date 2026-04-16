@@ -364,7 +364,7 @@ export default function App() {
               <span>Serving Your Local Area</span>
             </div>
             <img 
-              src="https://picsum.photos/seed/gassafe/200/200" 
+              src="/gassafe.jpeg"
               alt="Gas Safe Registered" 
               className="w-10 h-10 object-contain grayscale opacity-50 hover:opacity-100 hover:grayscale-0 transition-all"
               referrerPolicy="no-referrer"
