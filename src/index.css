@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate: #1a1c1e;
+  --color-charcoal: #2c2e31;
+  --color-accent: #0070e0;
+  --color-accent-hover: #0056ad;
+  --color-light-grey: #f4f5f7;
+  --color-text-muted: #8e9299;
+  
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate text-white antialiased;
+  }
+}
+
+.hero-pattern {
+  background-image: linear-gradient(rgba(26, 28, 30, 0.75), rgba(26, 28, 30, 0.95)), url('/headerimage.jpg'), url('https://picsum.photos/seed/modern-kitchen-interior/1920/1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
