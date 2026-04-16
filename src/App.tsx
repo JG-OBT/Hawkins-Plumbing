@@ -105,7 +105,7 @@ export default function App() {
               </h3>
               <div className="flex flex-col items-center gap-1">
                 <img 
-                  src="https://picsum.photos/seed/gassafe/200/200" 
+              src="/gassafe.jpeg"
                   alt="Gas Safe Registered" 
                   className="w-16 h-16 object-contain grayscale hover:grayscale-0 transition-all"
                   referrerPolicy="no-referrer"
