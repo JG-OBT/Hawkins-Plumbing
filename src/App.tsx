@@ -296,10 +296,10 @@ export default function App() {
                     </div>
                   </div>
                   <div className="flex items-center gap-3 pt-4 border-t border-slate/5">
-                    <a href="https://facebook.com/hawkinsheating" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate/5 rounded flex items-center justify-center text-slate/40 hover:text-accent hover:bg-accent/5 transition-all">
+                    <a href="https://www.facebook.com/hawkinsheatingandplumbing/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate/5 rounded flex items-center justify-center text-slate/40 hover:text-accent hover:bg-accent/5 transition-all">
                       <Facebook size={20} />
                     </a>
-                    <a href="https://instagram.com/hawkinsheating" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate/5 rounded flex items-center justify-center text-slate/40 hover:text-accent hover:bg-accent/5 transition-all">
+                    <a href="https://www.instagram.com/hawkinsheatingandplumbingltd/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate/5 rounded flex items-center justify-center text-slate/40 hover:text-accent hover:bg-accent/5 transition-all">
                       <Instagram size={20} />
                     </a>
                   </div>
@@ -347,10 +347,10 @@ export default function App() {
           <div className="flex flex-col gap-2">
             <div>© 2026 Hawkins Heating and Plumbing • hawkinsheatingandplumbing@gmail.com</div>
             <div className="flex items-center gap-3 opacity-60">
-              <a href="https://facebook.com/hawkinsheating" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://www.facebook.com/hawkinsheatingandplumbing/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                 <Facebook size={14} />
               </a>
-              <a href="https://instagram.com/hawkinsheating" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://www.instagram.com/hawkinsheatingandplumbingltd/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                 <Instagram size={14} />
               </a>
             </div>
