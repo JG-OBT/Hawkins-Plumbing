@@ -167,48 +167,56 @@ export default function App() {
           <p>"He saved us a lot of money... explained everything clearly and showed us the issue. Highly recommend."</p>
         </div>
 
-        {/* Services Grid */}
-        <div id="services" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-charcoal border-t border-white/10">
-          <div className="p-8 border-r border-white/5 flex flex-col justify-between group hover:bg-white/5 transition-colors">
-            <div>
-              <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Oil Boiler Installs</h4>
-              <p className="text-text-muted text-sm leading-relaxed">Precision installation and commissioning of new oil systems.</p>
-            </div>
-            <div className="mt-6 h-20 bg-slate/50 flex items-center justify-center text-[10px] text-white/20 uppercase tracking-tighter border border-white/5">
-              [Oil boiler repair close-up]
-            </div>
-          </div>
+       {/* Services Grid */}
+<div id="services" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-charcoal border-t border-white/10">
+  <div className="p-8 border-r border-white/5 flex flex-col justify-between group hover:bg-white/5 transition-colors">
+    <div>
+      <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Oil Boiler Installs</h4>
+      <p className="text-text-muted text-sm leading-relaxed">Precision installation and commissioning of new oil systems.</p>
+    </div>
+    <img
+      src="/oil-boiler.jpg"
+      alt="Oil boiler installation"
+      className="mt-6 h-20 w-full object-cover border border-white/5"
+    />
+  </div>
 
-          <div className="p-8 border-r border-white/5 flex flex-col justify-between group hover:bg-white/5 transition-colors">
-            <div>
-              <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Plumbing Repairs</h4>
-              <p className="text-text-muted text-sm leading-relaxed">From leak repairs to toilets and blockages. Fixed fast.</p>
-            </div>
-            <div className="mt-6 h-20 bg-slate/50 flex items-center justify-center text-[10px] text-white/20 uppercase tracking-tighter border border-white/5">
-              [Pipework detail]
-            </div>
-          </div>
+  <div className="p-8 border-r border-white/5 flex flex-col justify-between group hover:bg-white/5 transition-colors">
+    <div>
+      <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Plumbing Repairs</h4>
+      <p className="text-text-muted text-sm leading-relaxed">From leak repairs to toilets and blockages. Fixed fast.</p>
+    </div>
+    <img
+      src="/pipework.jpg"
+      alt="Pipework detail"
+      className="mt-6 h-20 w-full object-cover border border-white/5"
+    />
+  </div>
 
-          <div className="p-8 border-r border-white/5 flex flex-col justify-between group hover:bg-white/5 transition-colors">
-            <div>
-              <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Bathrooms & Tiling</h4>
-              <p className="text-text-muted text-sm leading-relaxed">Complete project management from plumbing to the final tile.</p>
-            </div>
-            <div className="mt-6 h-20 bg-slate/50 flex items-center justify-center text-[10px] text-white/20 uppercase tracking-tighter border border-white/5">
-              [Bathroom installation]
-            </div>
-          </div>
+  <div className="p-8 border-r border-white/5 flex flex-col justify-between group hover:bg-white/5 transition-colors">
+    <div>
+      <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Bathrooms & Tiling</h4>
+      <p className="text-text-muted text-sm leading-relaxed">Complete project management from plumbing to the final tile.</p>
+    </div>
+    <img
+      src="/bathroom.jpg"
+      alt="Bathroom installation"
+      className="mt-6 h-20 w-full object-cover border border-white/5"
+    />
+  </div>
 
-          <div className="p-8 flex flex-col justify-between group hover:bg-white/5 transition-colors">
-            <div>
-              <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Radiators & Taps</h4>
-              <p className="text-text-muted text-sm leading-relaxed">System upgrades and modern fixture installations.</p>
-            </div>
-            <div className="mt-6 h-20 bg-slate/50 flex items-center justify-center text-[10px] text-white/20 uppercase tracking-tighter border border-white/5">
-              [Radiator installation]
-            </div>
-          </div>
-        </div>
+  <div className="p-8 flex flex-col justify-between group hover:bg-white/5 transition-colors">
+    <div>
+      <h4 className="text-accent text-sm font-bold uppercase tracking-widest mb-2">Radiators & Taps</h4>
+      <p className="text-text-muted text-sm leading-relaxed">System upgrades and modern fixture installations.</p>
+    </div>
+    <img
+      src="/radiator.jpg"
+      alt="Radiator installation"
+      className="mt-6 h-20 w-full object-cover border border-white/5"
+    />
+  </div>
+</div>
 
         {/* Reviews Section */}
         <section id="reviews" className="py-20 px-10 bg-slate">
